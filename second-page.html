@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+    <link rel="icon" href="Netflix-assets/assets/media/logo-epicode.jpg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="css/second-page.css" />
+  </head>
+  <body class="bg-dark">
+    <header>
+      <img
+        class="m-3"
+        src="Netflix-assets/assets/netflix_logo.png"
+        alt="logo"
+      />
+    </header>
+    <main class="w-75 mx-auto container border-bottom">
+      <h1 class="text-light fw-normal mt-5">Edit Profile</h1>
+      <div class="row">
+        <div class="col-12 col-lg-3 d-flex justify-content-center mb-3">
+          <img
+            src="Netflix-assets/assets/kids_icon.png"
+            style="width: 150px"
+            alt="id"
+          />
+        </div>
+        <div class="col-12 col-lg-9 mb-3">
+          <div class="border-bottom">
+            <p class="text-light ps-2 bg-secondary">Strive Student</p>
+            <h6 class="text-secondary">Language</h6>
+            <div class="dropdown">
+              <button
+                class="btn btn-dark dropdown-toggle mb-3"
+                type="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                English
+              </button>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Italian</a></li>
+                <li><a class="dropdown-item" href="#">Spanish</a></li>
+                <li><a class="dropdown-item" href="#">French</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <p class="text-secondary">Maturity settings</p>
+          <p class="bg-secondary text-light text-uppercase ps-2">
+            all maturity ratings
+          </p>
+          <p class="text-light fw-normal">
+            Show titles<span class="fw-bold"> of all maturity ratings </span>for
+            this profile
+          </p>
+          <button class="bg-dark text-secondary text-center px-4 border mb-3">
+            Edit
+          </button>
+
+          <p class="text-secondary fs-5">Autoplay controls</p>
+          <i class="bi bi-check-square d-block"> Autoplay</i>
+          <i class="bi bi-check-square"> Autoplay preview</i>
+        </div>
+      </div>
+    </main>
+    <div class="container d-flex justify-content-center my-3">
+      <button type="button" class="btn btn-light text-uppercase me-3">
+        save
+      </button>
+      <button
+        type="button"
+        class="btn btn-outline-secondary text-uppercase me-3"
+      >
+        cancel
+      </button>
+      <button
+        type="button"
+        class="btn btn-outline-secondary text-uppercase me-3"
+      >
+        delete profile
+      </button>
+    </div>
+  </body>
+</html>
